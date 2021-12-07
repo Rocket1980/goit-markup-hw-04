@@ -142,6 +142,10 @@ span {
 
 .cap {
   background-color: #2f303a;
+  background-image: url(../images/herou.jpg);
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: auto;
 
   height: 600px;
   padding: 200px 0;
@@ -195,7 +199,7 @@ span {
 .peculiarity-box {
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  margin: 0px;
 }
 
 .peculiarity-box + .peculiarity-text {
@@ -203,10 +207,16 @@ span {
 }
 
 .peculiarity-list {
-  /* display: flex;
-  flex-wrap: wrap; */
   width: 270px;
   height: 101px;
+}
+.peculiarity-list::before {
+  display: block;
+  content: '';
+  height: 120px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #f5f4fa;
 }
 
 .peculiarity-heading {
@@ -217,6 +227,23 @@ span {
   text-transform: uppercase;
   color: var(--text-primary);
 }
+
+.peculiarity-antena:nth-child(1)::before {
+  background-image: url(../images/dekor/antenna\ 1.jpg);
+}
+
+.peculiarity-clock:nth-child(2)::before {
+  background-image: url(../images/dekor/clock\ 1.jpg);
+}
+
+.peculiarity-diagram:nth-child(3)::before {
+  background-image: url(../images/dekor/diagram\ 1.jpg);
+}
+
+.peculiarity-astronaut:nth-child(4)::before {
+  background-image: url(../images/dekor/astronaut\ 1.jpg);
+}
+
 .peculiarity-text {
   /* margin-right: 30px; */
 
