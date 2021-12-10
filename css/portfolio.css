@@ -15,13 +15,6 @@ a {
   text-decoration: none;
 }
 
-h1,
-h2,
-h3,
-h4 {
-  margin: 0;
-}
-
 ul {
   list-style: none;
   padding-inline-start: 0px;
@@ -38,6 +31,10 @@ address {
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+
+.header {
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
@@ -119,21 +116,16 @@ span {
 }
 /* ========== main ========== */
 
-.main-button {
-  display: flex;
-  justify-content: space-evenly;
-  padding-bottom: 34px;
-}
-
 .main-container {
-  padding-top: 47px;
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
 .button-ul {
   display: flex;
+  justify-content: center;
   align-items: center;
-  margin: 0;
+  margin-bottom: 34px;
 }
 
 .button-li {
@@ -145,7 +137,9 @@ span {
 }
 
 .button-link {
+  border-width: 0;
   border-radius: 4px;
+
   padding: 6px 22px;
 
   font-family: var(--secondary-font);
@@ -165,14 +159,12 @@ span {
   color: #ffffff;
 }
 
-.main-img {
-  width: 1200px;
-}
-
 .list-projects-box {
   display: flex;
   flex-wrap: wrap;
   margin: 0;
+  margin-right: -30px;
+  margin-bottom: -30px;
 }
 
 .list-projects {
@@ -183,11 +175,19 @@ span {
 .images-projects {
   width: 370px;
   height: 294px;
-  margin-bottom: 20px;
+  margin: 0;
+}
+
+.projects {
+  border: 1px solid #eeeeee;
+  padding-top: 20px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
 
 .heading-projects {
-  margin-bottom: 4px;
+  margin: 0;
 
   font-weight: 700;
   font-size: 18px;
@@ -210,7 +210,6 @@ span {
 
 .footer {
   background-color: #2f303a;
-  height: 252px;
   padding: 60px 0;
   margin: 0 auto;
 }
@@ -226,6 +225,7 @@ span {
 }
 .footer-address {
   margin-top: 20px;
+  margin-bottom: 9px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -235,6 +235,10 @@ span {
 
 .footer-list-box {
   margin: 0;
+}
+
+.footer-list {
+  margin-bottom: 9px;
 }
 
 .footer-mailto {

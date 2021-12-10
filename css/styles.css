@@ -11,13 +11,6 @@ body {
   font-family: var(--secondary-font);
 }
 
-h1,
-h2,
-h3,
-h4 {
-  margin: 0;
-}
-
 a {
   text-decoration: none;
 }
@@ -38,7 +31,7 @@ address {
 /* ========== header ========== */
 
 .container {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -105,10 +98,6 @@ span {
 }
 
 .connection-mailto {
-  /* display: block;
-  padding-top: 32px;
-  padding-bottom: 32px; */
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -117,10 +106,6 @@ span {
 }
 
 .connection-tel {
-  /* display: block;
-  padding-top: 32px;
-  padding-bottom: 32px; */
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -142,23 +127,14 @@ span {
 
 .cap {
   background-color: #2f303a;
-  background-image: url(../images/herou.jpg);
-  background-repeat: no-repeat;
-  background-position: 50%;
-  background-size: auto;
-
   height: 600px;
   padding: 200px 0;
   margin: 0 auto;
 }
 
-/* .cap-container {
-  padding: 200px 0;
-  width: 1200px;
-} */
-
 .cap-heading {
-  padding-bottom: 30px;
+  margin-top: 0;
+  margin-bottom: 30px;
 
   font-weight: 900;
   font-size: 44px;
@@ -190,8 +166,6 @@ span {
 }
 
 .peculiarity {
-  width: 1200px;
-  margin: 0 auto;
   padding-top: 94px;
   padding-bottom: 47px;
 }
@@ -199,7 +173,7 @@ span {
 .peculiarity-box {
   display: flex;
   justify-content: space-between;
-  margin: 0px;
+  margin: 0;
 }
 
 .peculiarity-box + .peculiarity-text {
@@ -210,16 +184,10 @@ span {
   width: 270px;
   height: 101px;
 }
-.peculiarity-list::before {
-  display: block;
-  content: '';
-  height: 120px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
-}
 
 .peculiarity-heading {
+  margin-top: 0;
+  margin-bottom: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -227,25 +195,8 @@ span {
   text-transform: uppercase;
   color: var(--text-primary);
 }
-
-.peculiarity-antena:nth-child(1)::before {
-  background-image: url(../images/dekor/antenna\ 1.jpg);
-}
-
-.peculiarity-clock:nth-child(2)::before {
-  background-image: url(../images/dekor/clock\ 1.jpg);
-}
-
-.peculiarity-diagram:nth-child(3)::before {
-  background-image: url(../images/dekor/diagram\ 1.jpg);
-}
-
-.peculiarity-astronaut:nth-child(4)::before {
-  background-image: url(../images/dekor/astronaut\ 1.jpg);
-}
-
 .peculiarity-text {
-  /* margin-right: 30px; */
+  margin: 0;
 
   font-weight: 400;
   font-size: 14px;
@@ -257,7 +208,6 @@ span {
 /* ========== classes ========== */
 
 .classes-box {
-  width: 1200px;
   padding-top: 47px;
   padding-bottom: 84px;
 }
@@ -277,6 +227,7 @@ span {
 }
 
 .classes-heading {
+  margin-top: 0;
   margin-bottom: 50px;
 
   font-weight: bold;
@@ -295,18 +246,18 @@ span {
 /* ========== team ========== */
 
 .team-box {
-  width: 1200px;
   padding-top: 102px;
   padding-bottom: 86px;
 }
 
-.team-group-image .team-group {
+.team-group {
   display: flex;
   justify-content: center;
   margin: 0;
 }
 
 .team-group-bg {
+  border: 1px solid #eeeeee;
   margin-left: 30px;
   margin-bottom: 30px;
 }
@@ -323,10 +274,15 @@ span {
 
 .team-li {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .team-box-heading {
+  margin-top: 0;
   margin-bottom: 50px;
 
   font-weight: 700;
@@ -339,9 +295,11 @@ span {
 .team-image {
   width: 270px;
   height: 260px;
-  padding-bottom: 30px;
 }
 .team-heading {
+  margin-top: 0;
+  margin-bottom: 10px;
+
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -349,6 +307,8 @@ span {
   color: var(--text-primary);
 }
 .team-position {
+  margin: 0;
+
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -361,7 +321,6 @@ span {
 
 .footer {
   background-color: #2f303a;
-  height: 252px;
   padding: 60px 0;
   margin: 0 auto;
 }
@@ -377,6 +336,7 @@ span {
 }
 .footer-address {
   margin-top: 20px;
+  margin-bottom: 9px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -386,6 +346,10 @@ span {
 
 .footer-list-box {
   margin: 0;
+}
+
+.footer-list {
+  margin-bottom: 9px;
 }
 
 .footer-mailto {
