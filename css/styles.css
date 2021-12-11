@@ -291,7 +291,7 @@ span {
 
 .team-box {
   padding-top: 102px;
-  padding-bottom: 86px;
+  padding-bottom: 48px;
 }
 
 .team-group {
@@ -392,6 +392,23 @@ span {
 
 .link-siz:hover {
   fill: #ffffff;
+}
+
+/*===== clients =====*/
+
+.clients {
+  padding-top: 48px;
+  padding-bottom: 94px;
+}
+
+.clients-box {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.18;
+  line-height: 100%;
+  text-align: Center;
+  letter-spacing: 0.03em;
+  color: var(--text-primary);
 }
 
 /* ===== footer ===== */
