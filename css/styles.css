@@ -123,6 +123,31 @@ span {
   color: var(--theme-color);
 }
 
+.images-mailto {
+  width: 16px;
+  height: 12px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  fill: #757575;
+}
+.images-mailto:hover,
+.images-mailto:focus {
+  color: var(--theme-color);
+}
+
+.images-tel {
+  width: 10px;
+  height: 16px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  fill: #757575;
+}
+.images-tel:hover {
+  color: var(--theme-color);
+}
+
 /* ========== main ========== */
 
 .cap {
