@@ -373,19 +373,25 @@ span {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid #fffff;
+  border: 1px solid #ffffff;
   border-radius: 50%;
+  background-color: #ffffff;
   width: 44px;
   height: 44px;
 }
 
 .social-link-siz:hover {
-  fill: #2196f3;
+  background-color: var(--theme-color);
 }
 
 .link-siz {
   width: 20px;
   height: 20px;
+  fill: #afb1b8;
+}
+
+.link-siz:hover {
+  fill: #ffffff;
 }
 
 /* ===== footer ===== */
