@@ -131,7 +131,8 @@ span {
   margin: 0;
   fill: #757575;
 }
-.images-mailto:hover {
+.images-mailto:hover,
+.images-mailto:focus {
   fill: var(--theme-color);
 }
 
@@ -492,11 +493,24 @@ span {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-link {
+.footer-box-siz {
   display: flex;
 }
 
+.footer-link {
+  margin-left: 70px;
+}
+
+.footer-siz-link-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
 .footer-heading {
+  margin-top: 10px;
+  margin-bottom: 0;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -516,6 +530,10 @@ span {
   height: 44px;
   outline: 1px solid rgba(255, 255, 255, 0.1);
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.footer-link-box:first-child {
+  margin-left: 0;
 }
 
 .footer-link-box:hover,
