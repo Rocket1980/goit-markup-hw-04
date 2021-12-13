@@ -291,6 +291,8 @@ span {
 /* ========== team ========== */
 
 .team-box {
+  background-color: #f5f4fa;
+  margin: 0 auto;
   padding-top: 102px;
   padding-bottom: 48px;
 }
@@ -302,7 +304,10 @@ span {
 }
 
 .team-group-bg {
-  border: 1px solid #eeeeee;
+  /* border: 1px solid #eeeeee; */
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  background-color: #ffffff;
   margin-left: 30px;
   margin-bottom: 30px;
 }
@@ -381,7 +386,8 @@ span {
   height: 44px;
 }
 
-.social-link-siz:hover {
+.social-link-siz:hover,
+.social-link-siz:focus {
   background-color: var(--theme-color);
 }
 
@@ -391,7 +397,8 @@ span {
   fill: #afb1b8;
 }
 
-.link-siz:hover {
+.link-siz:hover,
+.link-siz:focus {
   fill: #ffffff;
 }
 
@@ -400,6 +407,7 @@ span {
 .clients {
   padding-top: 48px;
   padding-bottom: 94px;
+  margin: 0 auto;
 }
 
 .clients-box {
@@ -424,8 +432,12 @@ span {
   align-items: center;
   width: 170px;
   height: 92px;
-  outline: 1px solid #afb1b8;
+  border: 1px solid #afb1b8;
   margin-right: 30px;
+}
+
+.clients-link:hover {
+  border-color: #2196f3;
 }
 
 .clients-link:last-child {
