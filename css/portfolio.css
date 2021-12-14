@@ -121,7 +121,7 @@ span {
   border: none;
   padding: 0;
   margin: 0;
-  fill: #757575;
+  fill: currentColor;
 }
 .images-mailto:hover,
 .images-mailto:focus {
@@ -134,7 +134,7 @@ span {
   border: none;
   padding: 0;
   margin: 0;
-  fill: #757575;
+  fill: currentColor;
 }
 .images-tel:hover,
 .images-tel:focus {
