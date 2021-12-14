@@ -128,7 +128,7 @@ span {
   height: 12px;
   border: none;
   padding: 0;
-  margin: 0;
+  margin: 0 10px 0 0;
   fill: currentColor;
 }
 .images-mailto:hover,
@@ -141,7 +141,7 @@ span {
   height: 16px;
   border: none;
   padding: 0;
-  margin: 0;
+  margin: 0 10px 0 0;
   fill: currentColor;
 }
 .images-tel:hover,
