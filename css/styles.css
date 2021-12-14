@@ -418,6 +418,7 @@ span {
   text-align: Center;
   letter-spacing: 0.03em;
   color: var(--text-primary);
+  margin-bottom: 50px;
 }
 
 .clients-siz {
@@ -466,9 +467,6 @@ span {
 }
 
 .clients-logo {
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   width: 106px;
   height: 60px;
   fill: currentColor;
